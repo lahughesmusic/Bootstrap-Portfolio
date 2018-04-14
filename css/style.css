@@ -1,12 +1,16 @@
 
-.im{
-    background-image: url(./images/d_s.png);
-}
+
 
 .right-tabs{
     float: right;
     position: absolute;
     right: 10px;
+}
+
+
+
+.teal{
+    color: #4aaaa5;
 }
 
 .logo{
