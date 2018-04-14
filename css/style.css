@@ -1,3 +1,8 @@
+
+.im{
+    background-image: url(./images/d_s.png);
+}
+
 .right-tabs{
     float: right;
     position: absolute;
@@ -19,19 +24,20 @@
 .content{
     width: 70%;
     border: 2px solid #cccccc;
+    border-radius: .5em;
     background: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     padding: 20px;
-    margin: 0 auto;}
+    margin: 20px auto;
+}
+
+
 
 p{
     margin: 0px 30px;
 }
 
-body{
-    background-image: url(./images/dust_scratches/dust_scratches.png)
-}
 
 .logo{
     padding: 10px;
@@ -91,7 +97,7 @@ h3{
 
             .content {
             width: 80%; 
-            margin: 0 50px;
+            margin: 20px 50px;
             padding: 30px;
             
             }
@@ -116,11 +122,20 @@ h3{
     .profilePic{
         width: auto;
     }
+
+    .content{
+        margin: 20px auto;
+    }
 }
 @media only screen and (max-width: 768px){
     .container{
         max-width: 640px;
     }
+
+    .content{
+        margin: 20px auto;
+    }
+}
 
 
     h3{
@@ -136,6 +151,11 @@ h3{
         h3{
             width: 100%;
         }
+
+        .content{
+            margin: 20px auto;
+        }
+    }
   
     }
    
