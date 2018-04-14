@@ -23,7 +23,7 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0 auto;}
 
 p{
     margin: 0px 30px;
@@ -71,7 +71,7 @@ h3{
         top: 150px;
         background: #4aaaa5;
         height: 40px;
-        width: 192px;
+        width: 100%;
         display: block;
         font-family: 'Georgia', Times, 'Times New Roman', serif;
         color: #ffffff;
@@ -102,4 +102,43 @@ h3{
                 height: 30%;
             }
         }
+
+
+@media only screen and (max-width: 980px){
+    .container{
+        max-width: 760px;
+    }
+
+    h3{
+        width: 100%;
+    }
+
+    .profilePic{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 640px;
+    }
+
+
+    h3{
+        width: 100%;
+    }
+  
+    }
+
+@media only screen and (max-width: 640px){
+    .container{
+        max-width: 490px;}
+    
+        h3{
+            width: 100%;
+        }
+  
+    }
+   
+
+
 
